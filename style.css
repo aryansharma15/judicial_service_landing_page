@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body{
+  background-color: #2B2922;
+  margin: 40px 0px;
+} 
+
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+section[aria-label="navbar"]{
+  margin: 0px 60px;
+}
+
+.navbar div{
+  display: inline;
+  vertical-align: middle;
+}
+
+.navbar img{
+  width: 140px;
+  position: relative;
+  left: 40px;
+}
+
+.list{
+  display: inline;
+  position: absolute;
+  top: 60px;
+  left: 650px;
+  text-align: center;
+}
+
+.list li{
+  display: inline;
+  margin: 0px 30px;
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+
+.list li:first-of-type{
+  font-weight: 700;
+  font-size: large;
+}
+
+.button-small{
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  padding: 10px 35px;
+  background-color: #2B2922;
+  color: #867931;
+  border: solid #867931;
+  border-radius: 8px;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+section[aria-label="hero"]{
+  margin-top: 90px;
+}
+
+
+.justice{
+  font-size: 70px;
+}
+
+.image{
+  position: relative;
+  top: 70px;
+  
+}
+
+.image img{
+  width: 98.9vw;
+  object-fit: cover;
+  height: 600px;
+}
+
+
+.just{
+  color: #FFFFFF;
+  margin: 0px 95px;
+  display: inline;
+  margin-bottom: 80px;
+}
+
+.justice h1{
+  display: inline-block;
+  width: 650px;
+  font-size: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+
+.paragraph p{
+  width: 420px;
+  position: absolute;
+  display: inline;
+  font-size: 18px;
+  font-weight: 20;
+  word-spacing: 3.5px;
+  line-height: 25px;
+}
+
+.paragraph{
+  position: relative;
+  top: 50px;
+  left: 200px;
+}
+
